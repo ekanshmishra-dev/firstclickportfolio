@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /employee
+Disallow: /portal
+Disallow: /attendance
+
+Sitemap: https://firstclickconnects.online/sitemap.xml

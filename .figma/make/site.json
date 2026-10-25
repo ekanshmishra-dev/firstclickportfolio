@@ -1,0 +1,11 @@
+{
+  "title": "FIRST CLICK — Digital Growth Company",
+  "description": "FIRST CLICK Digital Growth Company - Websites, Mobile Apps, Automation & Performance Marketing",
+  "robots": {
+    "index": true
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
