@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { renderToString } from "react-dom/server";
-import { StaticRouter } from "react-router";
+import { StaticRouter } from "react-router-dom";
 import { AppRoutes } from "./App";
 import { PAGES, NOT_FOUND, type PageSeo } from "./data/seo";
 import { FEATURES } from "./features";
