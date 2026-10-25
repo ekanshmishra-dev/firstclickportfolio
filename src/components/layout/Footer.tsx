@@ -76,7 +76,7 @@ export default function Footer({ onOpenBrochure }: { onOpenBrochure: () => void 
             <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" className="hover:text-ink">
               WhatsApp
             </a>
-            <span>© {new Date().getFullYear()} FIRST CLICK. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} FIRST CLICK CONNECTS LLP. All rights reserved.</span>
           </div>
         </div>
       </div>

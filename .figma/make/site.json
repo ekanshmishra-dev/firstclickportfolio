@@ -1,6 +1,9 @@
 {
-  "title": "FIRST CLICK — Digital Growth Company",
-  "description": "FIRST CLICK Digital Growth Company - Websites, Mobile Apps, Automation & Performance Marketing",
+  "title": "FIRST CLICK CONNECTS LLP — Digital Growth Agency",
+  "description": "FIRST CLICK CONNECTS LLP - Websites, Mobile Apps, Automation & Performance Marketing",
+  "icons": {
+    "icon": "/favicon.ico?v=6"
+  },
   "robots": {
     "index": true
   },

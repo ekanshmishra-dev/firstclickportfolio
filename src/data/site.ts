@@ -9,7 +9,8 @@ export interface SocialLink {
 }
 
 export const SITE = {
-  name: "FIRST CLICK",
+  name: "FIRST CLICK CONNECTS LLP",
+  shortName: "FIRST CLICK",
   descriptor: "Digital Growth Agency",
   url: SITE_URL,
   whatsapp: WHATSAPP_NUMBER,
