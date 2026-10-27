@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { navLinks } from "../../features";
+import { activeSocials } from "../../data/site";
 import Button, { Arrow } from "../ui/Button";
 import Logo from "./Logo";
 
@@ -89,6 +90,23 @@ export default function Navbar() {
         <Button to="/contact" className="mt-8 w-full">
           Start a project <Arrow />
         </Button>
+
+        <div className="mt-8 border-t border-line pt-6">
+          <p className="text-[13px] font-medium tracking-wider text-muted uppercase">Connect</p>
+          <div className="mt-4 flex flex-wrap gap-4 text-[15px]">
+            {activeSocials().map((s) => (
+              <a
+                key={s.label}
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-soft transition-colors hover:text-ink"
+              >
+                {s.label} ↗
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </header>
   );

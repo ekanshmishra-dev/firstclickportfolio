@@ -18,8 +18,8 @@ export const SITE = {
   email: "",
   replyNote: "We usually reply on WhatsApp within a working day.",
   socials: [
-    { label: "Instagram", url: "" },
-    { label: "LinkedIn", url: "" },
+    { label: "Instagram", url: "https://www.instagram.com/firstclick.socials/" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/company/firstclickconnectsllp/" },
   ] as SocialLink[],
 };
 
